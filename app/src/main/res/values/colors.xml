@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F58220</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="dns_record_a">#333333</color>
+    <color name="dns_record_aaaa">#7C7C7C</color>
+    <color name="dns_record_cname">#FF7900</color>
+    <color name="dns_record_mx">#D91698</color>
+    <color name="dns_record_loc">#62A1D8</color>
+    <color name="dns_record_srv">#BD2527</color>
+    <color name="dns_record_spf">#333333</color>
+    <color name="dns_record_txt">#9BCA3E</color>
+    <color name="dns_record_ns">#9545E5</color>
+    <color name="dns_record_caa">#BE292B</color>
+</resources>

@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">CloudFlare Client</string>
+    <string name="activity_copyright_notice">Copyright Notice</string>
+    <string name="activity_copyright_statement">This app was created without the involvement of CloudFlare, Inc. Its use is not endorsed, in part or in whole, by CloudFlare, Inc. The creator is not responsible for any harm that may come to your device or your CloudFlare account via use of this app.</string>
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
+    <string name="cf_logo_description">CloudFlare Logo</string>
+    <string name="title_activity_login">Login to CloudFlare</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">API Key</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Login</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This API key is invalid</string>
+    <string name="error_incorrect_password">This API key is invalid</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="API_Key">API Key</string>
+    <string name="API_Key_Explanation">Before using this app, make sure that you have a CloudFlare account.  You\'ll need the email address used to sign up for the account and your Global API Key (can be found under CloudFlare account settings).</string>
+    <string name="data_path">tech.scolton.cf_client.data</string>
+    <string name="title_activity_management_portal">ManagementPortalActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="overview_paused_text">Status: Paused</string>
+    <string name="overview_active_text">Status: Active</string>
+    <string name="overview_development_mode_text">Status: Development Mode</string>
+    <string name="overview_under_attack_text">Status: I\'m Under Attack!</string>
+
+    <string name="overview_paused_desc">Web traffic to this website is no longer receiving performance and security benefits. Cloudflare continues to resolve the DNS. You can reactivate Cloudflare for this website at anytime.</string>
+    <string name="overview_active_desc">This website is active on Cloudflare.</string>
+    <string name="overview_development_mode_desc">Caching for this website has been disabled.</string>
+    <string name="overview_under_attack_desc">I\'m Under Attack mode is used when a website is under a DDoS attack. All visitors will be shown an interstitial page for five seconds.</string>
+
+    <string name="overview_paused_resume">Resume</string>
+    <string name="overview_development_mode_disable">Disable</string>
+    <string name="overview_under_attack_mode_disable">Disable</string>
+
+    <string name="overview_status">Zone Status</string>
+
+    <string name="overview_domain_overview">Domain Overview</string>
+
+    <string name="overview_security_level">Security Level:\u0020</string>
+    <string name="overview_ssl">SSL:\u0020</string>
+    <string name="overview_security_content_description">Security</string>
+
+    <string name="overview_caching_level">Caching Level:\u0020</string>
+    <string name="overview_development_mode">Development Mode:\u0020</string>
+    <string name="overview_caching_content_description">Caching</string>
+
+    <string name="overview_zone_id">Zone ID:\u0020</string>
+    <string name="overview_zone_properties_content_description">Zone Properties</string>
+
+    <string name="overview_get_api_key">Get your API key</string>
+    <string name="overview_api_documentation">API documentation</string>
+
+    <string name="overview_quick_actions">Quick Actions</string>
+
+    <string name="dialog_api_key_message">Click the API key to copy it to the clipboard.</string>
+
+    <string name="security_level_essentially_off">Essentially Off</string>
+    <string name="security_level_low">Low</string>
+    <string name="security_level_medium">Medium</string>
+    <string name="security_level_high">High</string>
+    <string name="security_level_under_attack">I\'m Under Attack!</string>
+
+    <string name="ssl_off">Off</string>
+    <string name="ssl_flexible">Flexible</string>
+    <string name="ssl_full">Full</string>
+    <string name="ssl_strict">Strict</string>
+
+    <string name="cache_level_aggressive">Standard</string>
+    <string name="cache_level_basic">No Query String</string>
+    <string name="cache_level_simplified">Ignore Query String</string>
+
+    <string name="development_mode_on">Enabled</string>
+    <string name="development_mode_off">Disabled</string>
+
+    <string name="zone_id_copied">Zone ID Copied</string>
+    <string name="api_key_copied">API Key Copied</string>
+
+    <string name="dns_record_a">A record</string>
+    <string name="dns_record_aaaa">AAAA record</string>
+    <string name="dns_record_cname">CNAME record</string>
+    <string name="dns_record_mx">MX record</string>
+    <string name="dns_record_loc">LOC record</string>
+    <string name="dns_record_srv">SRV record</string>
+    <string name="dns_record_spf">SPF record</string>
+    <string name="dns_record_txt">TXT record</string>
+    <string name="dns_record_ns">NS record</string>
+    <string name="dns_record_caa">CAA record</string>
+
+    <string name="dns_record_a_desc">points to\u0020</string>
+    <string name="dns_record_aaaa_desc">points to\u0020</string>
+    <string name="dns_record_cname_desc">is an alias of\u0020</string>
+    <string name="dns_record_mx_desc">mail handled by\u0020</string>
+    <string name="dns_record_loc_desc" />
+    <string name="dns_record_srv_desc" />
+    <string name="dns_record_spf_desc" />
+    <string name="dns_record_txt_desc" />
+    <string name="dns_record_ns_desc">managed by\u0020</string>
+    <string name="dns_record_caa_desc" />
+
+    <string name="dns_record_priority">PRIORITY</string>
+    <string name="dns_record_ttl">ttl</string>
+
+    <string name="dns_record_proxied_content_desc">Record is proxied through Cloudflare servers.</string>
+    <string name="dns_record_not_proxied_content_desc">Record is not proxied. DNS requests are still resolved.</string>
+    <string name="dns_record_settings_content_desc">DNS Record Settings</string>
+
+    <string name="dialog_dns_record_name">Name</string>
+    <string name="dialog_dns_record_content">Content</string>
+</resources>

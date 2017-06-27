@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="CFClientTheme" parent="CFClientTheme.Base">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="CFClientTheme.Base" parent="Theme.AppCompat.Light">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">#F58220</item>
+        <item name="colorPrimaryDark">#844512</item>
+        <item name="colorAccent">#000</item>
+    </style>
+
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
